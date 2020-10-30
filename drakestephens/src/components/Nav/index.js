@@ -14,9 +14,6 @@ function Nav() {
                         <Link style={{ fontWeight: 700, fontSize: "15px" }} className="nav-link" to="/Portfolio">Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <Link style={{ fontWeight: 700, fontSize: "15px" }} className="nav-link" to="/Contact">Contact</Link>
-                    </li>
-                    <li className="nav-item">
                         <Link style={{ fontWeight: 700, fontSize: "15px" }} className="nav-link" to="/Resume">Resume</Link>
                     </li>
                 </ul>
