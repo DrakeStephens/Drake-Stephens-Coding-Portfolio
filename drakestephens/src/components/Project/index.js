@@ -8,21 +8,14 @@ const ProjectList = () => {
             name: 'Date Night',
             url: 'https://drakestephens.github.io/Date-Night/',
             repository: 'https://github.com/DrakeStephens/Date-Night',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+            description: 'Date Night Shows off my ability and know how to use APIs.',
             pic: 'popcorn'
-        },
-        {
-            name: 'SLC-Food',
-            url: 'https://slc-food2020.herokuapp.com/',
-            repository: 'https://github.com/DrakeStephens/SLC-Food',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-            pic: 'slc-food'
         },
         {
             name: 'Timed-Out',
             url: 'https://protected-caverns-67219.herokuapp.com/',
             repository: 'https://github.com/mhans19/timed-out',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+            description: 'Timed-Out is a perfect example of using SQL to manage databases, It also shows my compentancy with handlebars.',
             pic: 'timedOut'
         },
         // {
@@ -48,12 +41,16 @@ const ProjectList = () => {
               <h5 className="card-title">{photo.name}</h5>
               <p className="card-text">{photo.description}</p>
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="m-5"
                 href={photo.url}
               ><img src={url} alt={'...'}/>
               </a>
               <a
                 href={photo.repository}
+                target="_blank"
+                rel="noopener noreferrer"
               ><img src={GitHub} alt={'...'}/>
               </a>
               </div>
